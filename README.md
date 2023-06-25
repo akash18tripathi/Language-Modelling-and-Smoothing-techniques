@@ -1,4 +1,4 @@
-# Language-Modelling-and-Smoothning-techniques
+# Language-Modelling-and-Smoothing-techniques
 
 ## Description 
 
