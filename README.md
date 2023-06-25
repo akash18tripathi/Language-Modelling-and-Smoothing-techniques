@@ -43,6 +43,33 @@ Here's a breakdown of the file structure:
   - `script1.py`: This file represents a Python script.
   - `script2.py`: This file represents another Python script.
 
+
+## Running instructions
+
+### language_model.py
+
+To run the language model using N-grams and smoothing techniques, use the following command:
+
+```bash
+$ python3 language_model.py <smoothing type> <path to corpus>
+```
+- <smoothing type>: Specify the smoothing type. Use 'k' for Kneser-Ney or 'w' for Witten-Bell.
+- <path to corpus>: Provide the path to the corpus file.
+
+Ex:
+```bash
+$ python3 language_model.py k ./corpus.txt
+```
+
+### neural_model.py
+
+To run the neural model, use the following command:
+
+```bash
+$ python3 neural_model.py
+```
+
+
 ## Language Model using N-Grams
 
 A language model based on N-grams is a statistical model that predicts the probability of a word or sequence of words based on the previous N-1 words in a text. N-grams represent contiguous sequences of N words in the text.
